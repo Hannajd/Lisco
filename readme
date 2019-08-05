@@ -1,0 +1,9 @@
+Lisco is a single-pass continuous Euclidean distance-based clustering of LiDAR point clouds, that maximizes the granularity of the data processing pipeline and thus shows the potential for data- and pipeline-parallelism.
+
+You can run the code on either synthetic or real dataset. The file containing LiDAR point clouds should be in the following format:
+- each line contains 3 values
+- the first line shows specifications of the LiDAR: number of lasers, number of steps, 0 (the third value is useless)
+- the rest of the file shows reflected points' specifications: distance, theta, alpha
+
+
+There is also a file "run.py" showing how to run Lisco.
